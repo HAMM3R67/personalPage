@@ -1,9 +1,9 @@
 var app = angular.module('hammer');
 app.service('MainData', function(){
 	var blogPosts = [
-		{ text: '1st blog post'},
-		{ text: '2nd post'},
-		{ text: '3rd post'}
+		{ text: 'Learn HTLM and CSS'},
+		{ text: 'Learn JavaScript and jQuery'},
+		{ text: 'Learn Angular'}
 	];
 	
 	this.getPosts = function(){
