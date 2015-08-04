@@ -10,7 +10,12 @@ app.service('MainData', function(){
 		return blogPosts
 	};
 	
-
+	var bgImage = new Image();
+	bgImage.src = 'http://www.kennanward.com/i/reg/393.jpg';
+	
+	this.image = function(){
+		return bgImage;
+	};
 	
 	
 	
