@@ -4,6 +4,10 @@ body {
 	background-image: url('bgBear.jpg');
 }
 
+li {
+	border: 1px, solid, black;
+}
+
 .navBar {
 	font-size: 20px;
 	float: 20px;
