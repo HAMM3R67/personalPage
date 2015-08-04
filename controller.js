@@ -4,4 +4,5 @@ app.controller('mainCtrl', function($scope, MainData){
 	
 	$scope.blogs = MainData.getPosts();
 
+	$scope.image = 'bgBear.jpg';
 });
