@@ -11,9 +11,11 @@
 		<div id="myName" ng-model="name">
 			{{name}}
 		</div>
-		<div ng-repeat="blog in blogs">
-			{{blog.text}}
-		</div>
+		<ul>	
+			<li ng-repeat="blog in blogs">
+				{{blog.text}}
+			</li>
+		</ul>	
 		<button>Submit Post</button>
 		
 		

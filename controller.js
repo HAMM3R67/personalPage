@@ -1,6 +1,6 @@
 var app = angular.module('hammer');
 app.controller('mainCtrl', function($scope, MainData){
-	$scope.name = "Trevor Schauerhamer";
+	$scope.name = "T.Schauerhamer";
 	
 	$scope.blogs = MainData.getPosts();
 
