@@ -1,4 +1,4 @@
-var app = angular.module('hammer', ['ngRoute']);
+var app = angular.module('hammer', []);
 
 // app.config(function($routeProvider, $httpProvider){
 // 	$httpProvider.interceptors.push('httpRequestInterceptor');
@@ -15,4 +15,4 @@ var app = angular.module('hammer', ['ngRoute']);
 // 	.otherwise({
 // 		redirectTo: '/'
 // 	})
-//});
+// });
