@@ -14,10 +14,12 @@ li {
 }
 
 .navbar {
+	color: white;
 	font-size: 50px;
 	font-family: 'Papyrus';
 	font-weight: bolder;
-	margin-left: 430px;
+	text-align: center;
+	background-color: black;
 }
 
 #postBox {

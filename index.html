@@ -9,17 +9,17 @@
 		<div ng-controller="mainCtrl">
 	
 		<div></div>
-		<div class="navbar" ng-model="name">
+		<div class="navbar navbar-default navbar-fixed-top" role="navigation" ng-model="name">
 			{{name}}
 		</div>
+		<br />
+		<div>
 		<ul>	
 			<li ng-repeat="blog in blogs">
 				{{blog.text}}
 			</li>
 		</ul>	
-		<input id="postBox"></input>
-		<br>
-		<button>Submit Post</button>
+		</div>
 		
 		
 		
